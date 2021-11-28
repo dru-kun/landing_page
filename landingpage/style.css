@@ -20,10 +20,6 @@ a:visited{
     color:white;
 }
 
-.content{
-    flex: 1;
-}
-
 .header{
     display: flex;
     align-items: center;
@@ -62,8 +58,9 @@ color: white;
     background-color: #3882F6;
     color: white;
     width: 100px;
-    border: none;
+    height: 30px;
     padding: 3px;
+    border-radius:5px;
 }
 
 .heroright{
@@ -75,5 +72,111 @@ color: white;
 }
 
 .footer{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    flex: 1;
+    margin-bottom: 60px;
+}
+
+.content-1-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+.content-1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.contentimg{
+    width: 150px;
+}
+
+.content-1-info{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px
+}
+
+.content1text{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.content-2{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #e5e7eb;
+    padding-bottom: 46px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.quote1{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+    padding-left: 12px;
+}
+
+.quote1author{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 100px;
+    color: #1F2937;
+    font-weight: bolder;
+}
     
+.modal{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 690px;
+    padding:36px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.modalcontainer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.modaltxt1{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.modaltxt2{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer{
+background-color: #1F2937;
+padding: 20px;
+color: white;
 }
